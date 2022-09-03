@@ -1,0 +1,11 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: reactive
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/reactivepg
+    username: postgres
+    password: pgsql1234
+    initialization-mode: always
